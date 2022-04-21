@@ -52,6 +52,7 @@ font-weight: bold;
 .col{
     text-align: center;
 }
+/* Fuatures */
 #features{  
     padding: 7% 15%; 
     background-color: #fff;
@@ -75,10 +76,11 @@ p{
 .icon:hover{
     color: #e62642;
 }
+/* Testimonials */
 #testimonials{
    
     text-align: center;
-    background-color: #ec4d65;
+    background-color: #eb334f;
     color: #fff;
 
 }
@@ -92,7 +94,7 @@ margin: 25px;
 }
 
 #press{
-    background-color: #ec4d65;
+    background-color: #eb334f;
     text-align: center;
     padding-bottom: 3%;
 
@@ -110,7 +112,28 @@ margin: 25px;
 .pricing-column{
     padding: 3% 2%;
 }
-
+/* CTA Sections */
+#cta{
+    padding: 7% 15%;
+    background-color: #eb334f;
+    color: #fff;   
+    text-align: center;
+  
+}
+.cta-heading{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;  
+    line-height: 1.5;
+}
+/* footer */
+#footer{
+    padding: 7% 15%; 
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
 /* Media queries */
 @media (max-width: 1028px){
     #title{

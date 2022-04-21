@@ -110,3 +110,14 @@ margin: 25px;
 .pricing-column{
     padding: 3% 2%;
 }
+
+/* Media queries */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}

@@ -6,7 +6,7 @@ body{
     color: #fff;
 }
 .container-fluid{
-    padding: 7% 15%;
+    padding: 7% 15% 7%;
 }
 h1{
     font-family: "Montserrat";
@@ -45,6 +45,7 @@ font-weight: bold;
 .title-image{
     width: 60%;
    transform: rotate(25deg);
+   /* Positions alows to move yours elements */
    position: absolute;
   
 }

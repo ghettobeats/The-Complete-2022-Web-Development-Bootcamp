@@ -43,14 +43,22 @@ font-weight: bold;
     margin: 5% 3% 5% 0;
 }
 .title-image{
-    width: 50%;
-   transform: rotate(30deg);
+    width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+  
 }
 .col{
     text-align: center;
 }
-#features{
-    padding: 7% 15%;
+#features{  
+    padding: 7% 15%; 
+    background-color: #fff;
+    position: relative;
+    /* z-index works with a positions of element */
+    z-index: 1;
+   
+   
 }
 .features-box{
     text-align: center;

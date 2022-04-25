@@ -52,6 +52,9 @@ font-weight: bold;
 .col{
     text-align: center;
 }
+/* Es buena practica comentar las secciones
+ a la que le estas aplicando el estilo todo esto para no perderte y tener mejor 
+ lectura del css */
 /* Fuatures */
 #features{  
     padding: 7% 15%; 
